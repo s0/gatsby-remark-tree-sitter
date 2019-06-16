@@ -7,7 +7,7 @@
   "author": "Sam Lanning <sam@samlanning.com>",
   "license": "MIT",
   "dependencies": {
-    "remark-tree-sitter": "^1.0.2"
+    "remark-tree-sitter": "^1.0.3"
   },
   "peerDependencies": {
     "gatsby": "^2.0.0"
