@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/samlanning/gatsby-remark-tree-sitter",
   "author": "Sam Lanning <sam@samlanning.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "remark-tree-sitter": "^1.0.1"
+  }
 }
