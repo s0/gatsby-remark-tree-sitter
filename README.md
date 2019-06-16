@@ -31,6 +31,10 @@ and list the grammars you want to use in your `gatsby-config.js` file:
 
 **Example:**
 
+```
+npm install --save @atom-languages/language-typescript
+```
+
 ```js
 plugins: [
   {

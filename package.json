@@ -2,6 +2,7 @@
   "name": "gatsby-remark-tree-sitter",
   "version": "0.0.3",
   "description": "Highlight code in Markdown files using tree-sitter",
+  "keywords": ["gatsby", "gatsby-plugin", "tree-sitter", "syntax-highlighting", "markdown", "remark"],
   "main": "index.js",
   "repository": "https://github.com/samlanning/gatsby-remark-tree-sitter",
   "author": "Sam Lanning <sam@samlanning.com>",
