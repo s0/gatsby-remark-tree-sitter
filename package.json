@@ -1,0 +1,9 @@
+{
+  "name": "gatsby-remark-tree-sitter",
+  "version": "0.0.1",
+  "description": "Highlight code in Markdown files using tree-sitter",
+  "main": "index.js",
+  "repository": "https://github.com/samlanning/gatsby-remark-tree-sitter",
+  "author": "Sam Lanning <sam@samlanning.com>",
+  "license": "MIT"
+}
