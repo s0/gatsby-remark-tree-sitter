@@ -1,18 +1,18 @@
 const treeSitter = require('remark-tree-sitter');
 
+let transformer = null;
+
 module.exports = ({ markdownAST }, options) => {
-  console.log('run');
-  const transformer = treeSitter(options)
-
-  return transformer(markdownAST);
-}
-
-module.exports.setParserPlugins = options => {
-  // Hook into setParserPlugins (which is only called once) to validate the options
-  try {
-    treeSitter.validateOptions(options);
-  } catch (e) {
-    throw new Error('Invalid options passed to plugin gatsby-remark-tree-sitter: ' + e.toString());
+  if (!transformer || transformer.options !== options) {
+    try {
+      transformer = {
+        transformer: treeSitter(options),
+        options
+      };
+    } catch(e) {
+      throw new Error('Invalid options passed to plugin gatsby-remark-tree-sitter: ' + e.toString());
+    }
   }
-  return [];
-};
+
+  return transformer.transformer(markdownAST);
+}
