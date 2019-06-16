@@ -1,5 +1,7 @@
 # gatsby-remark-tree-sitter
 
+[![](https://img.shields.io/npm/v/gatsby-remark-tree-sitter.svg)](https://www.npmjs.com/package/gatsby-remark-tree-sitter)
+
 Highlight code in Markdown files using
 [tree-sitter](https://github.com/tree-sitter/tree-sitter), powered by [remark-tree-sitter](https://github.com/samlanning/remark-tree-sitter).
 
